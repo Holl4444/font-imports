@@ -74,12 +74,43 @@ align-items: center;
   padding-bottom: 6rem;
 }
 
+.hero:hover {
+    background: #c57a63;
+    color: #ced8e9;
+    /* box-shadow: 0 0 5px 15px #dd834b; */
+    transition-timing-function: ease-in;
+}
+
+.hero:hover > * {
+    text-shadow: 0 0 0.5px #000;
+
+}
+
+.hero:hover .distinct-font {
+    color: #010116;
+}
+
+.hero:hover .apply-btn {
+    color: #010116;
+    box-shadow:0 0 0.5px 0.2px #010116, 0 0 4px 2px #fbe2a3, 0 0 2px 2px #fff;
+}
+
 .apply-btn {
   padding: 0.5rem 1.1rem;
   border: none;
   background: white;
   color: #ef965e;
   font-weight: bold;
+  transition-duration: 50ms;
+} 
+
+.apply-btn:hover {
+    background: #ced8e9;
+}
+
+.hero:hover .apply-btn:active {
+        box-shadow:0 0 3px 1px #3d3d6b, 0 0 4px 3px #fbe2a3, 0 0 0.5px 0.5px #fff;
+        translate: 0 2px;     
 }
 
 /* Manbow seesm to only works when competing with another font (applied in html) */
