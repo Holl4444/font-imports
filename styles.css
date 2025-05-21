@@ -6,7 +6,7 @@
 @font-face {
   src: url('fonts/manbow.lines-regular.otf') format('opentype');
   font-weight: normal;
-  font-style: normal;;
+  font-style: normal;
   font-family: Manbow-lines;
 }
 
@@ -16,11 +16,10 @@
 }
 
 .rubik-lines-regular {
-    font-family: "Rubik Lines", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+  font-family: 'Rubik Lines', system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .orbitron-reg {
   font-family: 'Orbitron', sans-serif;
@@ -38,13 +37,18 @@
 
 body {
   color: white;
-  background-image: url('images/spaceScene.jpg');
+  background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGZiM3N3MWgweG95ODY0djg5MHg4eHJmdnRrdzdudmtlODE3NndtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3c614V12UA82q1vG/giphy.gif');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+#spacex-logo {
+  display: block;
+  width: 7rem;
+  margin: 1rem auto 0 auto;
+}
+
 .hero {
-  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,5 +65,7 @@ body {
 /* Manbow seesm to only works when competing with another font (applied in html) */
 .distinct-font {
   font-family: Manbow-lines;
-  color: #cf8a77;
+  /* color: #cf8a77; */
+  color: #f4eccf;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff;
 }
