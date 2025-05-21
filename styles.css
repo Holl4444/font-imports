@@ -1,0 +1,65 @@
+@font-face {
+  src: url('fonts/corleone.regular.ttf');
+  font-family: Corleone;
+}
+
+@font-face {
+  src: url('fonts/manbow.lines-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;;
+  font-family: Manbow-lines;
+}
+
+@font-face {
+  src: url('fonts/Manbow\ Stripe.otf');
+  font-family: Manbow-stripe;
+}
+
+.rubik-lines-regular {
+    font-family: "Rubik Lines", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.orbitron-reg {
+  font-family: 'Orbitron', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orbitron-bold {
+  font-family: 'Orbitron', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  color: white;
+  background-image: url('images/spaceScene.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.apply-btn {
+  padding: 0.5rem 1.1rem;
+  border: none;
+  background: white;
+}
+
+/* Manbow seesm to only works when competing with another font (applied in html) */
+.distinct-font {
+  font-family: Manbow-lines;
+  color: #cf8a77;
+}
