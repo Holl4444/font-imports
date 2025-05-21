@@ -35,11 +35,23 @@
   font-style: normal;
 }
 
+* {
+    margin: none;
+    padding: none;
+}
+
 body {
-  color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+  color: #eea886;
   background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGZiM3N3MWgweG95ODY0djg5MHg4eHJmdnRrdzdudmtlODE3NndtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3c614V12UA82q1vG/giphy.gif');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.title {
+    text-shadow: 0 0 2px black;
 }
 
 #spacex-logo {
@@ -54,18 +66,32 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGZiM3N3MWgweG95ODY0djg5MHg4eHJmdnRrdzdudmtlODE3NndtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3c614V12UA82q1vG/giphy.gif');
+  background-size: cover;
+  padding:3rem 0;
+  width: 90%;
+  margin-top: 3rem;
+  padding-bottom: 6rem;
 }
 
 .apply-btn {
   padding: 0.5rem 1.1rem;
   border: none;
   background: white;
+  color: #ef965e;
+  font-weight: bold;
 }
 
 /* Manbow seesm to only works when competing with another font (applied in html) */
 .distinct-font {
   font-family: Manbow-lines;
   /* color: #cf8a77; */
-  color: #f4eccf;
+  color: #fbe2a3;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff;
 }
+
+footer {
+   color:#a7b8d0;
+   text-shadow: 0 0 1px #ef965e, 0 0 2px #ef965e, 0 0 3px #000;
+}
+
